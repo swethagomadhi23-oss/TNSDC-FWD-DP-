@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Student Portfolio - Swetha</title>
+
+  <style>
+
+    body {
+
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background: #f9fbfd;
+
+    }
+
+    header {
+
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+
+      color: white;
+
+      text-align: center;
+
+      padding: 70px 20px;
+
+    }
+
+    header h1 span {
+
+      color: #ffe600;
+
+    }
+
+    header button {
+
+      padding: 12px 24px;
+
+      background: #0077ff;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+      border-radius: 25px;
+
+      font-weight: bold;
+
+      margin-top: 15px;
+
+      transition: 0.3s;
+
+    }
+
+    header button:hover {
+
+      background: #005fcc;
+
+    }
+
+    .about {
+
+      text-align: center;
+
+      padding: 50px 20px;
+
+    }
+
+    .about img {
+
+      width: 160px;
+
+      height: 160px;
+
+      border-radius: 50%;
+
+      object-fit: cover;
+
+      border: 5px solid #4facfe;
+
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+
+    }
+
+    .projects {
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 40px 20px;
+
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+    }
+
+    .projects div {
+
+      background: white;
+
+      padding: 25px;
+
+      width: 260px;
+
+      border-radius: 15px;
+
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+      transition: transform 0.3s;
+
+    }
+
+    .projects div:hover {
+
+      transform: translateY(-8px);
+
+    }
+
+    .projects h3 {
+
+      color: #0077ff;
+
+    }
+
+    .contact {
+
+      text-align: center;
+
+      padding: 50px 20px;
+
+      background: #eef6fb;
+
+    }
+
+    .contact input, .contact textarea {
+
+      width: 85%;
+
+      max-width: 420px;
+
+      margin: 10px auto;
+
+      padding: 12px;
+
+      display: block;
+
+      border: 1px solid #ccc;
+
+      border-radius: 8px;
+
+      outline: none;
+
+      font-size: 14px;
+
+    }
+
+    .contact input:focus, .contact textarea:focus {
+
+      border-color: #0077ff;
+
+      box-shadow: 0px 0px 6px rgba(0,119,255,0.3);
+
+    }
+
+    .contact button {
+
+      padding: 12px 25px;
+
+      background: #0077ff;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+      border-radius: 25px;
+
+      font-size: 15px;
+
+      margin-top: 10px;
+
+      transition: 0.3s;
+
+    }
+
+    .contact button:hover {
+
+      background: #005fcc;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Hi, I'm <span>Swetha</span></h1>
+
+    <p>A creative learner exploring the world of coding! 💻✨</p>
+
+    <button>Check My Projects</button>
+
+  </header>
+
+  <section class="about">
+
+    <h2>About Me</h2>
+
+    <!-- Girl image -->
+
+    <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Swetha profile image"/>
+
+  </section>
+
+  <section class="projects">
+
+    <div>
+
+      <h3>Project A</h3>
+
+      <p>Portfolio website with modern design.</p>
+
+    </div>
+
+    <div>
+
+      <h3>Project B</h3>
+
+      <p>JavaScript game development project.</p>
+
+    </div>
+
+    <div>
+
+      <h3>Project C</h3>
+
+      <p>Personal blog styled with CSS Flexbox & Grid.</p>
+
+    </div>
+
+  </section>
+
+  <section class="contact">
+
+    <h2>Contact Me</h2>
+
+    <input type="text" placeholder="Your Name"/>
+
+    <input type="email" placeholder="Your Email"/>
+
+    <textarea rows="4" placeholder="Your Message"></textarea>
+
+    <button>Send Message</button>
+
+  </section>
+
+</body>
+
+</html>
